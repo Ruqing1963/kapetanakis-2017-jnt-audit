@@ -111,7 +111,6 @@ Section 3: 162 cases (q,r,n,mu,F); largest |w - main| / bound = 0.1412 (must be 
 == truth: conclusion of Theorem 2.8(4), exhaustive ==
 100 cases (q,alpha,n,m) with 2 <= mu <= n/2; every kappa attained in 100; failures: []
    of which q=2, mu=2: 19 cases, all attained: True
-figure written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017.pdf
 == thresh ==
 q=2: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[12]
 q=3: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[7]
@@ -170,8 +169,6 @@ Table 3 rows with a failure under the caption (mu <= n/2): [5, 16, 17] ; under m
    n=7: (S3) for all mu < n/2 holds for all prime powers 16 < q <= 20000
    n=8: (S3) for all mu < n/2 holds for all prime powers 7 < q <= 20000
    n=9: (S3) for all mu < n/2 holds for all prime powers 11 < q <= 20000
-figure written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017.pdf
-figure written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017.pdf
 == truth: conclusion of Theorem 2.8(4), exhaustive ==
 100 cases (q,alpha,n,m) with 2 <= mu <= n/2; every kappa attained in 100; failures: []
    of which q=2, mu=2: 19 cases, all attained: True
@@ -189,7 +186,6 @@ figure written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audi
    q=2, n=15: #T = 1+X (mod X^3): 541, #T = 1+X+X^2 (mod X^3): 550; lower bound 518.30
    q=2, n=16: #T = 1+X (mod X^3): 1024, #T = 1+X+X^2 (mod X^3): 1024; lower bound 983.95
    n*pi_2(n) > 9*2^(n/2) + 3 for all 7 <= n <= 200: True ; 2^n - 2^(n/2+1) > 9*2^(n/2)+3 for n >= 8: True
-figure written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017.pdf
 == direct: exact counts against the lower bounds (D2), (D3) ==
 (D2): 420 cases (q,n,mu,c,gamma), all kappa; violations of the lower bound: []; smallest count/bound where the bound is positive: (1.0424950390180239, 2, 13, 2, 155, 148.68176269308864)
 (D3): 420 cases (q,r,n,mu,delta), all kappa; violations: []; smallest count/bound where the bound is positive: (1.0595686932041526, 3, 2, 7, 1, 50, 47.1890122091086)
@@ -234,5 +230,3 @@ Table 1, A = (2 0; 0 1): 4 invariant irreducible sextics over F_3: ['X^6 + 2X^4 
    sample: [5, 2, 3, 1, [], 0] -> X^3 + 3X + 2
    sample: [5, 4, 3, 1, [], 0] -> X^3 + 3X + 2
    sample: [7, 6, 3, 1, [], 0] -> X^3 + 2
-figures written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017_1.pdf C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017_2.pdf
-figures written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017_1.pdf C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017_2.pdf
