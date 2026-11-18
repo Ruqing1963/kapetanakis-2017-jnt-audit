@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Prescribing coefficients of invariant irreducible polynomials over finite fields: counterexamples, corrected formulas, and complete restoration"
+abstract: >-
+  Audit of G. Kapetanakis, "Prescribing coefficients of invariant irreducible polynomials",
+  J. Number Theory 180 (2017) 615-628: counterexamples to several statements, corrected
+  formulas, complete statements and proofs without exceptional pairs, with the verification
+  program and its data.
+authors:
+  - family-names: Chen
+    given-names: Ruqing
+    affiliation: "GUT Geoservice Inc., Montreal, Canada"
+version: 1.0.0
+date-released: "2026-11-18"
+doi: 10.5281/zenodo.24350768
+repository-code: "https://github.com/Ruqing1963/kapetanakis-2017-jnt-audit"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - irreducible polynomials
+  - prescribed coefficients
+  - invariant polynomials
+  - finite fields
+  - character sums
+references:
+  - type: article
+    authors:
+      - family-names: Kapetanakis
+        given-names: Giorgos
+    title: "Prescribing coefficients of invariant irreducible polynomials"
+    journal: "Journal of Number Theory"
+    volume: 180
+    year: 2017
+    start: 615
+    end: 628
+    doi: 10.1016/j.jnt.2017.05.003

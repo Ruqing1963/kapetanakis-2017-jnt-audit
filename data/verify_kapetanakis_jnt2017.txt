@@ -1,0 +1,238 @@
+== gamma: coefficient formula of Theorem 2.8 ==
+q=2: 99 tuples (alpha,n,m), 4 random P each; corrected formula wrong in 0; printed formula wrong in 0, undefined (non-integral lower index) in 0
+q=3: 138 tuples (alpha,n,m), 4 random P each; corrected formula wrong in 0; printed formula wrong in 67, undefined (non-integral lower index) in 0
+q=4: 144 tuples (alpha,n,m), 4 random P each; corrected formula wrong in 0; printed formula wrong in 60, undefined (non-integral lower index) in 0
+q=5: 216 tuples (alpha,n,m), 4 random P each; corrected formula wrong in 0; printed formula wrong in 99, undefined (non-integral lower index) in 28
+q=7: 270 tuples (alpha,n,m), 4 random P each; corrected formula wrong in 0; printed formula wrong in 100, undefined (non-integral lower index) in 24
+q=8: 168 tuples (alpha,n,m), 4 random P each; corrected formula wrong in 0; printed formula wrong in 102, undefined (non-integral lower index) in 0
+q=9: 272 tuples (alpha,n,m), 4 random P each; corrected formula wrong in 0; printed formula wrong in 167, undefined (non-integral lower index) in 0
+total: 1307 tuples; corrected wrong: 0; printed wrong: 595; printed undefined: 52
+Table 1, A=(1 0; 2 1): invariant irreducibles of degree 6 over F_3 (coefficients X^0..X^6): [[2, 1, 1, 2, 1, 0, 1], [2, 2, 1, 1, 1, 0, 1]]
+   m=4: coefficient of X^4 in each: [1, 1]; printed gamma_0 = 2, corrected gamma_0 = 1
+== thresh ==
+q=2: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[12]
+q=3: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[7]
+q=4: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[5]
+q=5: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[4]
+q=7: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[3]
+q=8: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[3]
+q=9: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[3]
+q=11: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[3]
+q=13: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[2]
+q=27: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[2]
+q=64: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[2]
+q=67: factor positive for all mu >= 2
+Table 2: q=2, n=26: (5) fails for mu in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=3, n=16: (5) fails for mu in [2, 3, 4, 5, 6, 7, 8]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=4, n=12: (5) fails for mu in [2, 3, 4, 5, 6]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=5, n=10: (5) fails for mu in [2, 3, 4, 5]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=7, n=8: (5) fails for mu in [2, 3, 4]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=8, n=8: (5) fails for mu in [2, 3, 4]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=9, n=8: (5) fails for mu in [2, 3, 4]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=11, n=8: (5) fails for mu in [2, 3, 4]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=13, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=16, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=17, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=19, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=23, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=25, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=27, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+(5) for q=67: fails at (n,mu) in [(4, 2), (5, 2), (6, 2), (6, 3)]
+(5) for q=71: fails at (n,mu) in [(4, 2), (5, 2), (6, 2), (6, 3)]
+(5) for q=81: fails at (n,mu) in [(4, 2), (5, 2), (6, 3)]
+(5) for q=101: fails at (n,mu) in [(4, 2), (5, 2)]
+(5) for q=128: fails at (n,mu) in [(4, 2)]
+(5) for q=1601: fails at (n,mu) in []
+(S2) holds for all 2 <= mu <= n/2 (mu >= 3 if q = 2) and n0 <= n <= nmax:  {q: n0} = {2: 45, 3: 25, 4: 19, 5: 15, 7: 11, 8: 11, 9: 9, 11: 9, 13: 9, 16: 7, 17: 7, 19: 7, 23: 7, 25: 7, 27: 7, 29: 5, 31: 5, 32: 5}
+(S2) for all 4 <= n < 40 and all mu: holds for every prime power q with 139 < q <= 3000; largest failing q = 139
+   n=4: (S2) for all mu holds for all prime powers q > 139
+   n=5: (S2) for all mu holds for all prime powers q > 11
+   n=6: (S2) for all mu holds for all prime powers q > 27
+   n=7: (S2) for all mu holds for all prime powers q > 9
+   n=8: (S2) for all mu holds for all prime powers q > 13
+   n=9: (S2) for all mu holds for all prime powers q > 7
+   n=10: (S2) for all mu holds for all prime powers q > 8
+   n=11: (S2) for all mu holds for all prime powers q > 5
+tail estimate 2^(n/4-1) > 10 n(n+4) at n=100: True
+Table 3: q=5, n>=15: (8) fails for mu<=n/2 at [(16, 8)]; for mu<n/2 at []
+Table 3: q=16, n>=7: (8) fails for mu<=n/2 at [(8, 4)]; for mu<n/2 at []
+Table 3: q=17, n>=7: (8) fails for mu<=n/2 at [(8, 4)]; for mu<n/2 at []
+Table 3 rows with a failure under the caption (mu <= n/2): [5, 16, 17] ; under mu < n/2: []
+(8) for q>=31, n>=5, mu<=n/2 fails at: [(31, 6, 3), (32, 6, 3), (37, 6, 3), (41, 6, 3), (43, 6, 3), (47, 6, 3)]
+(S3) with W = W(q-1) holds for all 0 < mu < n/2 and n0 <= n <= nmax:  {q: n0} = {3: 24, 4: 16, 5: 14, 7: 12, 8: 8, 9: 8, 11: 10, 13: 8, 16: 8, 17: 6, 19: 6, 23: 6, 25: 6, 27: 6, 29: 6, 31: 6, 32: 4}
+   n=3: (S3) for all mu < n/2 holds for all prime powers 8971 < q <= 20000
+   n=4: (S3) for all mu < n/2 holds for all prime powers 11 < q <= 20000
+   n=5: (S3) for all mu < n/2 holds for all prime powers 61 < q <= 20000
+   n=6: (S3) for all mu < n/2 holds for all prime powers 7 < q <= 20000
+   n=7: (S3) for all mu < n/2 holds for all prime powers 16 < q <= 20000
+   n=8: (S3) for all mu < n/2 holds for all prime powers 7 < q <= 20000
+   n=9: (S3) for all mu < n/2 holds for all prime powers 11 < q <= 20000
+== diag: A = U B U^-1, B = diag(alpha,1), U = (a 0; c d) ==
+formula q_m = a^-n' sum_i delta_i (P0)_(n-i): violations 0; invariance violations 0
+mu = 0 cases: 1960; value set = {delta_0 a^-n'} in 1960; value set = delta_0*C (paper) in 0
+q=5, A=(4 0; 1 1), n'=2: invariant irreducibles (X^0..X^2): [[1, 4, 1], [2, 4, 1]]  C = [2, 3]
+== pure: [A] = [B], invariants P0(X^r) ==
+Cohen's criterion ((-1)^n p_0 in C) against direct irreducibility of P0(X^r): 0 violations in 55 triples (q,r,n)
+triples where some invariant has p_0 not in C (the paper's condition): 9; first: [[3, 2, 1, [1], [2]], [3, 2, 3, [1], [2]], [7, 2, 1, [1, 2, 4], [3, 5, 6]], [7, 2, 3, [1, 2, 4], [3, 5, 6]]]
+missing kappa for 0 < m < n', r | m:  [q, r, n', m, missing]:
+    [3, 2, 4, 2, [0]]  n'=2r, m=r: True   q=3 mod 4, r even
+    [4, 3, 6, 3, [0]]  n'=2r, m=r: True   q even
+    [7, 2, 4, 2, [0]]  n'=2r, m=r: True   q=3 mod 4, r even
+    [7, 6, 12, 6, [0]]  n'=2r, m=r: True   q=3 mod 4, r even
+    [8, 7, 14, 7, [0]]  n'=2r, m=r: True   q even
+    [11, 2, 4, 2, [0]]  n'=2r, m=r: True   q=3 mod 4, r even
+    [11, 10, 20, 10, [0]]  n'=2r, m=r: True   q=3 mod 4, r even
+== wsum: exact weighted sums ==
+q=2, mu=2: sum Lambda(H) over G_(mu-1) = 1; sum(q^j-1) = 1; paper's (q^mu-1)/(q-1) = 3
+q=2, mu=3: sum Lambda(H) over G_(mu-1) = 4; sum(q^j-1) = 4; paper's (q^mu-1)/(q-1) = 7
+q=2, mu=5: sum Lambda(H) over G_(mu-1) = 26; sum(q^j-1) = 26; paper's (q^mu-1)/(q-1) = 31
+q=3, mu=2: sum Lambda(H) over G_(mu-1) = 2; sum(q^j-1) = 2; paper's (q^mu-1)/(q-1) = 4
+q=3, mu=4: sum Lambda(H) over G_(mu-1) = 36; sum(q^j-1) = 36; paper's (q^mu-1)/(q-1) = 40
+q=4, mu=3: sum Lambda(H) over G_(mu-1) = 18; sum(q^j-1) = 18; paper's (q^mu-1)/(q-1) = 21
+q=5, mu=3: sum Lambda(H) over G_(mu-1) = 28; sum(q^j-1) = 28; paper's (q^mu-1)/(q-1) = 31
+q=7, mu=2: sum Lambda(H) over G_(mu-1) = 6; sum(q^j-1) = 6; paper's (q^mu-1)/(q-1) = 8
+q=2: c_1(psi) = -1.000000+0.000000i
+q=2: c_2(psi) = -1.000000+0.000000i
+q=2: c_3(psi) = -1.000000+0.000000i
+q=2: c_4(psi) = -1.000000+0.000000i
+q=3: c_1(psi) = -1.000000+0.000000i
+q=3: c_2(psi) = -1.000000+0.000000i
+q=3: c_3(psi) = -1.000000+0.000000i
+q=3: c_4(psi) = -1.000000+0.000000i
+q=4: c_1(psi) = -1.000000+0.000000i
+q=4: c_2(psi) = -1.000000+0.000000i
+q=4: c_3(psi) = -1.000000+0.000000i
+q=5: c_1(psi) = -1.000000+0.000000i
+q=5: c_2(psi) = -1.000000+0.000000i
+q=5: c_3(psi) = -1.000000+0.000000i
+Section 2: 234 cases (q,n,mu,alpha,F); largest |w - main| / bound = 0.1093 (must be <= 1)
+   q=2, mu=2 examples [q,n,mu,alpha,w,main,bound]: [[2, 6, 2, 1, 2, 2.5, 5.893], [2, 6, 2, 1, 3, 2.5, 5.893], [2, 6, 2, 1, 2, 2.5, 5.893], [2, 6, 2, 1, 0, 0.0, 5.893]]
+Section 3: 162 cases (q,r,n,mu,F); largest |w - main| / bound = 0.1412 (must be <= 1)
+== truth: conclusion of Theorem 2.8(4), exhaustive ==
+100 cases (q,alpha,n,m) with 2 <= mu <= n/2; every kappa attained in 100; failures: []
+   of which q=2, mu=2: 19 cases, all attained: True
+figure written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017.pdf
+== thresh ==
+q=2: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[12]
+q=3: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[7]
+q=4: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[5]
+q=5: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[4]
+q=7: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[3]
+q=8: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[3]
+q=9: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[3]
+q=11: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[3]
+q=13: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[2]
+q=27: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[2]
+q=64: q^((mu-1)/2) - 4mu <= 0 for mu in [2]..[2]
+q=67: factor positive for all mu >= 2
+Table 2: q=2, n=26: (5) fails for mu in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=3, n=16: (5) fails for mu in [2, 3, 4, 5, 6, 7, 8]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=4, n=12: (5) fails for mu in [2, 3, 4, 5, 6]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=5, n=10: (5) fails for mu in [2, 3, 4, 5]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=7, n=8: (5) fails for mu in [2, 3, 4]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=8, n=8: (5) fails for mu in [2, 3, 4]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=9, n=8: (5) fails for mu in [2, 3, 4]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=11, n=8: (5) fails for mu in [2, 3, 4]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=13, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=16, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=17, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=19, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=23, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=25, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+Table 2: q=27, n=6: (5) fails for mu in [2, 3]; (5) with mu=2 fails for every 4<=n<300: True
+(5) at (n,mu)=(4,2) fails for prime powers 67 <= q <= 1597
+(5) at (n,mu)=(5,2) fails for prime powers 67 <= q <= 113
+(5) at (n,mu)=(6,2) fails for prime powers 67 <= q <= 71
+(5) at (n,mu)=(6,3) fails for prime powers 67 <= q <= 83
+(5) at (n,mu)=(7,2) fails for prime powers 67 <= q <= None
+(5) at (n,mu)=(7,3) fails for prime powers 67 <= q <= None
+(S2) holds for all 2 <= mu <= n/2 (mu >= 3 if q = 2) and n0 <= n <= nmax:  {q: n0} = {2: 45, 3: 25, 4: 19, 5: 15, 7: 11, 8: 11, 9: 9, 11: 9, 13: 9, 16: 7, 17: 7, 19: 7, 23: 7, 25: 7, 27: 7, 29: 5, 31: 5, 32: 5, 37: 5, 41: 5, 43: 5, 47: 5, 49: 5, 53: 5, 59: 5, 61: 5, 64: 5, 67: 5, 71: 5, 73: 5, 79: 5, 81: 5, 83: 5, 89: 5, 97: 5, 101: 5, 103: 5, 107: 5, 109: 5, 113: 5, 121: 5, 125: 5, 127: 5, 128: 5, 131: 5, 137: 5, 139: 5, 149: 4, 151: 4, 157: 4}
+(S2) for all 4 <= n < 40 and all mu: holds for every prime power q with 139 < q <= 3000; largest failing q = 139
+   n=4: (S2) for all mu holds for all prime powers q > 139
+   n=5: (S2) for all mu holds for all prime powers q > 11
+   n=6: (S2) for all mu holds for all prime powers q > 27
+   n=7: (S2) for all mu holds for all prime powers q > 9
+   n=8: (S2) for all mu holds for all prime powers q > 13
+   n=9: (S2) for all mu holds for all prime powers q > 7
+   n=10: (S2) for all mu holds for all prime powers q > 8
+   n=11: (S2) for all mu holds for all prime powers q > 5
+tail estimate 2^(n/4-1) > 10 n(n+4) at n=100: True
+Table 3: q=5, n>=15: (8) fails for mu<=n/2 at [(16, 8)]; for mu<n/2 at []
+Table 3: q=16, n>=7: (8) fails for mu<=n/2 at [(8, 4)]; for mu<n/2 at []
+Table 3: q=17, n>=7: (8) fails for mu<=n/2 at [(8, 4)]; for mu<n/2 at []
+Table 3 rows with a failure under the caption (mu <= n/2): [5, 16, 17] ; under mu < n/2: []
+(8) for q>=31, n>=5, mu<=n/2 fails at: [(31, 6, 3), (32, 6, 3), (37, 6, 3), (41, 6, 3), (43, 6, 3), (47, 6, 3)]
+(S3) with W = W(q-1) holds for all 0 < mu < n/2 and n0 <= n <= nmax:  {q: n0} = {3: 24, 4: 16, 5: 14, 7: 12, 8: 8, 9: 8, 11: 10, 13: 8, 16: 8, 17: 6, 19: 6, 23: 6, 25: 6, 27: 6, 29: 6, 31: 6, 32: 4, 37: 4, 41: 4, 43: 6, 47: 4, 49: 4, 53: 4, 59: 4, 61: 6, 64: 4, 67: 4, 71: 4, 73: 4, 79: 4, 81: 4, 83: 4, 89: 4, 97: 4, 101: 4, 103: 4, 107: 4, 109: 4, 113: 4, 121: 4, 125: 4, 127: 4, 128: 3, 131: 4, 137: 4, 139: 4, 149: 3, 151: 4, 157: 4}
+   n=3: (S3) for all mu < n/2 holds for all prime powers 8971 < q <= 20000
+   n=4: (S3) for all mu < n/2 holds for all prime powers 11 < q <= 20000
+   n=5: (S3) for all mu < n/2 holds for all prime powers 61 < q <= 20000
+   n=6: (S3) for all mu < n/2 holds for all prime powers 7 < q <= 20000
+   n=7: (S3) for all mu < n/2 holds for all prime powers 16 < q <= 20000
+   n=8: (S3) for all mu < n/2 holds for all prime powers 7 < q <= 20000
+   n=9: (S3) for all mu < n/2 holds for all prime powers 11 < q <= 20000
+figure written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017.pdf
+figure written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017.pdf
+== truth: conclusion of Theorem 2.8(4), exhaustive ==
+100 cases (q,alpha,n,m) with 2 <= mu <= n/2; every kappa attained in 100; failures: []
+   of which q=2, mu=2: 19 cases, all attained: True
+   q=2, n=4: #T = 1+X (mod X^3): 1, #T = 1+X+X^2 (mod X^3): 1; lower bound -1.69
+   q=2, n=5: #T = 1+X (mod X^3): 1, #T = 1+X+X^2 (mod X^3): 2; lower bound -1.20
+   q=2, n=6: #T = 1+X (mod X^3): 3, #T = 1+X+X^2 (mod X^3): 2; lower bound -0.88
+   q=2, n=7: #T = 1+X (mod X^3): 4, #T = 1+X+X^2 (mod X^3): 5; lower bound 0.76
+   q=2, n=8: #T = 1+X (mod X^3): 8, #T = 1+X+X^2 (mod X^3): 8; lower bound 2.91
+   q=2, n=9: #T = 1+X (mod X^3): 15, #T = 1+X+X^2 (mod X^3): 13; lower bound 8.26
+   q=2, n=10: #T = 1+X (mod X^3): 24, #T = 1+X+X^2 (mod X^3): 27; lower bound 17.48
+   q=2, n=11: #T = 1+X (mod X^3): 48, #T = 1+X+X^2 (mod X^3): 45; lower bound 37.18
+   q=2, n=12: #T = 1+X (mod X^3): 85, #T = 1+X+X^2 (mod X^3): 85; lower bound 71.69
+   q=2, n=13: #T = 1+X (mod X^3): 155, #T = 1+X+X^2 (mod X^3): 160; lower bound 141.78
+   q=2, n=14: #T = 1+X (mod X^3): 297, #T = 1+X+X^2 (mod X^3): 288; lower bound 269.62
+   q=2, n=15: #T = 1+X (mod X^3): 541, #T = 1+X+X^2 (mod X^3): 550; lower bound 518.30
+   q=2, n=16: #T = 1+X (mod X^3): 1024, #T = 1+X+X^2 (mod X^3): 1024; lower bound 983.95
+   n*pi_2(n) > 9*2^(n/2) + 3 for all 7 <= n <= 200: True ; 2^n - 2^(n/2+1) > 9*2^(n/2)+3 for n >= 8: True
+figure written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017.pdf
+== direct: exact counts against the lower bounds (D2), (D3) ==
+(D2): 420 cases (q,n,mu,c,gamma), all kappa; violations of the lower bound: []; smallest count/bound where the bound is positive: (1.0424950390180239, 2, 13, 2, 155, 148.68176269308864)
+(D3): 420 cases (q,r,n,mu,delta), all kappa; violations: []; smallest count/bound where the bound is positive: (1.0595686932041526, 3, 2, 7, 1, 50, 47.1890122091086)
+== closure: where the direct bounds fail, and explicit polynomials there ==
+(D2) fails (2 <= mu <= n/2) exactly for (q, n, mu's): [[2, 4, [2]], [2, 5, [2]], [2, 6, [2, 3]], [2, 8, [4]], [2, 10, [5]], [3, 4, [2]], [3, 6, [3]], [4, 4, [2]], [4, 6, [3]], [5, 4, [2]], [7, 4, [2]], [8, 4, [2]], [9, 4, [2]], [16, 4, [2]]]
+   tail condition q^(n/4-1/2) >= 0.75n+5 for q < 64, n > 60 and for q = 64, n >= 4: True
+   one eigenvalue: 5710 cases (q,n,mu,c,gamma,kappa) below the bound; without a polynomial: 0 []
+(D3) fails (n >= 4, 0 < mu < n/2) exactly for (q, r, n, mu's): [[3, 2, 4, [1]], [7, 6, 4, [1]], [7, 6, 5, [2]]]
+   tail condition q^((n-2)/4) >= 2.45(n+5) for q < 500, n > 60 and for q = 487, n >= 4: True
+(D3) fails for n = 3 (mu = 1) for 18 pairs (q, r), q <= 211: [[3, 2], [4, 3], [5, 2], [5, 4], [7, 6], [11, 10], [13, 6], [13, 12], [16, 15], [19, 6], [19, 18], [31, 30], [43, 42], [61, 30], [61, 60], [67, 66], [71, 70], [211, 210]]
+   two eigenvalues: 719 cases (q,r,n,mu,delta,kappa) below the bound (n = 3 only for q <= 300); without a polynomial: 0 []
+== lemmas: prescribed trace coefficient / constant term; Table 1 ==
+39 pairs (q,n): every non-zero value is p_(n-1) of some P in I_n, failures: []; every non-zero value is p_0 of some P in I_n (n >= 2), failures: []
+R_n <= 2 q^(n/2) fails for (q,n) in: []
+W(m) <= 4.9 m^(1/4) fails for m <= 200000 in: [] ; constant 64/30030^(1/4) = 4.8617
+Table 1, A = (1 0; 2 1): 2 invariant irreducible sextics over F_3: ['X^6 + X^4 + 2X^3 + X^2 + X + 2', 'X^6 + X^4 + X^3 + X^2 + 2X + 2']
+Table 1, A = (2 0; 1 1): 4 invariant irreducible sextics over F_3: ['X^6 + 2X^3 + 2X^2 + X + 1', 'X^6 + 2X^4 + X^3 + 2X + 1', 'X^6 + 2X^4 + X^3 + X^2 + X + 2', 'X^6 + X^4 + 2X^2 + 2X + 2']
+Table 1, A = (2 0; 0 1): 4 invariant irreducible sextics over F_3: ['X^6 + 2X^4 + 1', 'X^6 + 2X^4 + X^2 + 1', 'X^6 + 2X^2 + 1', 'X^6 + X^4 + 2X^2 + 1']
+== closure: where the direct bounds fail, and explicit polynomials there ==
+(D2) fails (2 <= mu <= n/2) exactly for (q, n, mu's): [[2, 4, [2]], [2, 5, [2]], [2, 6, [2, 3]], [2, 8, [4]], [2, 10, [5]], [3, 4, [2]], [3, 6, [3]], [4, 4, [2]], [4, 6, [3]], [5, 4, [2]], [7, 4, [2]], [8, 4, [2]], [9, 4, [2]], [16, 4, [2]]]
+   tail condition q^(n/4-1/2) >= 0.75n+5 for q < 64, n > 60 and for q = 64, n >= 4: True
+   one eigenvalue: 5710 cases (q,n,mu,c,gamma,kappa) below the bound; without a polynomial: 0 []
+(D3) fails (n >= 4, 0 < mu < n/2) exactly for (q, r, n, mu's): [[3, 2, 4, [1]], [7, 6, 4, [1]], [7, 6, 5, [2]]]
+   tail condition q^((n-2)/4) >= 2.45(n+5) for q < 500, n > 60 and for q = 487, n >= 4: True
+(D3) fails for n = 3 (mu = 1) for 18 pairs (q, r), q <= 211: [[3, 2], [4, 3], [5, 2], [5, 4], [7, 6], [11, 10], [13, 6], [13, 12], [16, 15], [19, 6], [19, 18], [31, 30], [43, 42], [61, 30], [61, 60], [67, 66], [71, 70], [211, 210]]
+   two eigenvalues: 719 cases (q,r,n,mu,delta,kappa) below the bound (n = 3 only for q <= 300); without a polynomial: 0 []
+(D2): least n0 by q (q < 64; 4 elsewhere): {2: 11, 3: 7, 4: 7, 5: 5, 7: 5, 8: 5, 9: 5, 16: 5}
+(D3): least n0 by q (q < 500; 3 elsewhere): {3: 5, 4: 4, 5: 4, 7: 6, 11: 4, 13: 4, 16: 4, 19: 4, 31: 4, 43: 4, 61: 4, 67: 4, 71: 4, 211: 4}
+   sample: [2, 4, 2, 1, [0], 0] -> X^4 + X^3 + 1
+   sample: [2, 5, 2, 1, [0], 0] -> X^5 + X^4 + X^2 + X + 1
+   sample: [2, 6, 2, 1, [0], 0] -> X^6 + X^5 + 1
+   sample: [2, 6, 3, 1, [0, 0], 0] -> X^6 + X^5 + 1
+   sample: [2, 8, 4, 1, [0, 0, 0], 0] -> X^8 + X^7 + X^3 + X^2 + 1
+   sample: [2, 10, 5, 1, [0, 0, 0, 0], 0] -> X^10 + X^9 + X^4 + X^2 + 1
+   sample: [3, 4, 2, 1, [0], 0] -> X^4 + X^3 + 2X + 1
+   sample: [3, 6, 3, 1, [0, 0], 0] -> X^6 + X^5 + X^2 + X + 1
+   sample: [5, 4, 2, 1, [0], 0] -> X^4 + X^3 + 4X + 1
+   sample: [3, 2, 4, 1, [], 0] -> X^4 + X^2 + 2
+   sample: [7, 6, 4, 1, [], 0] -> X^4 + X^2 + 3
+   sample: [7, 6, 5, 2, [0], 0] -> X^5 + 3X^2 + 2
+   sample: [3, 2, 3, 1, [], 0] -> X^3 + 2X + 1
+   sample: [5, 2, 3, 1, [], 0] -> X^3 + 3X + 2
+   sample: [5, 4, 3, 1, [], 0] -> X^3 + 3X + 2
+   sample: [7, 6, 3, 1, [], 0] -> X^3 + 2
+figures written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017_1.pdf C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017_2.pdf
+figures written: C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017_1.pdf C:\Users\LAPPIE\Desktop\Goldbash\Audit\kapetanakis-2017-jnt-audit\figures\fig_kapetanakis_jnt2017_2.pdf
