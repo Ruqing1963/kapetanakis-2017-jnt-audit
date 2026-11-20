@@ -481,9 +481,10 @@ HF^{-1}$ for arbitrary $\lambda\in\Fq^*$, as its main term $(q^\mu-1)\pi_q(n)/(q
 constant term is never forced into $\fC$, so the irreducibility of $P(X^r)$ is not obtained. Proposition~\ref{prop:D3}
 uses all characters of $U$, which is what the argument needs. If one keeps the weights, the same repair gives
 $w>0$ whenever
+{\renewcommand{\theHequation}{S3}%
 \begin{equation}\label{eq:S3}\tag{S3}
 L'\,\pi_q(n)>W(r)\bigl(q^\mu K(\mu+2)+2L'\bigr)q^{n/2}/n,
-\end{equation}
+\end{equation}}%
 with $L'=L$, $K=\mu\sum_{j=1}^{\mu-1}q^{j/2}$ for $\mu\ge2$ and $L'=K=1$ for $\mu=1$. Table~3 of \cite{K} is
 stated for $1\le\mu\le n/2$; its inequality~(8) fails at $\mu=n/2$ for $(q,n)=(5,16),(16,8),(17,8)$ and holds in
 all rows for $\mu<n/2$. Its first row, $q=2$, is vacuous, since no $r>1$ exists.
@@ -590,6 +591,15 @@ with $x_0\ne0$, $m=0$ gives $q_0=P((-x_0)^r)$, which is never $0$. We have not s
 Cohen--Pre\v{s}ern. We repeat that our comparison is with the repository text of \cite{K}; statements may have
 been changed in print.
 
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work the author used Claude (Anthropic) and Gemini (Google) to
+assist with writing and running the Python verification scripts, searching for explicit small-field
+counterexamples, checking symbolic and character-sum identities, and drafting and editing the LaTeX manuscript.
+The counterexamples, numerical tables and finite-range computations were checked by running the verification
+program described in Section~\ref{sec:num}, whose output is deterministic (fixed random seeds), and the author
+checked the statements and proofs. After using these tools, the author reviewed and edited the content as
+needed and takes full responsibility for the content of the published article.
+
 \begin{thebibliography}{99}
 \bibitem{Ag} S.~Agou, \emph{Factorisation sur un corps fini $\F_{p^n}$ des polyn\^omes compos\'es
 $f(X^{p^r}-aX)$ lorsque $f(X)$ est un polyn\^ome irr\'eductible de $\F_{p^n}(X)$}, J.~Number Theory
@@ -605,7 +615,7 @@ proof}, in: Number Theory and Polynomials, LMS Lecture Note Ser.\ 352, Cambridge
 \bibitem{K} G.~Kapetanakis, \emph{Prescribing coefficients of invariant irreducible polynomials},
 J.~Number Theory \textbf{180} (2017), 615--628.
 \href{https://doi.org/10.1016/j.jnt.2017.05.003}{doi:10.1016/j.jnt.2017.05.003}.
-\bibitem{Repo} R.~Chen, \emph{kapetanakis-2017-jnt-audit: verification program and data}, Zenodo, 2026.
+\bibitem{Repo} R.~Chen, \emph{Verification program and data for the present note}, Zenodo, 2026.
 \href{https://doi.org/10.5281/zenodo.24350768}{doi:10.5281/zenodo.24350768}.
 \bibitem{Ro} M.~Rosen, \emph{Number Theory in Function Fields}, Grad.\ Texts in Math.\ 210, Springer, 2002.
 \bibitem{Wa} D.~Wan, \emph{Generators and irreducible polynomials over finite fields}, Math.\ Comp.\
